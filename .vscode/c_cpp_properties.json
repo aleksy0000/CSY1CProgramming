@@ -3,7 +3,8 @@
         {
             "name": "Win32",
             "includePath": [
-                "${default}"
+                "${default}",
+                "C:/msys64/ucrt64/include/ncurses"
             ],
             "defines": [
                 "_DEBUG",
