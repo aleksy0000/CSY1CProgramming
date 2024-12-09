@@ -140,6 +140,9 @@ int main()
         
     }//end else
 
+    free(patients);
+    free(patients_backup);
+
     return 0;
 
 }//end main
