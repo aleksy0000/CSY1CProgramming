@@ -1,0 +1,29 @@
+{
+	"folders": [
+		{
+			"path": "../../../../.."
+		},
+		{
+			"name": "test",
+			"path": "../../../../../../../../../Documents/PlatformIO/Projects/test"
+		},
+		{
+			"path": "../../../../../../../../traffic_lights_l031"
+		},
+		{
+			"path": "../../../../../../../../simon/simon"
+		},
+		{
+			"path": "../../../../../../../../serial_l031/serial_l031"
+		},
+		{
+			"path": "../../../../../../../../graphics_demo/graphics_demo"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"DMA2.C": "cpp",
+			"ProgLab12Q2.C": "cpp"
+		}
+	}
+}
