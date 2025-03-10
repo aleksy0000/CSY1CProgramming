@@ -6,7 +6,7 @@
     Date:
 */
 //Header Files
-
+#include <stdio.h>
 
 //Symbolic Names
 
