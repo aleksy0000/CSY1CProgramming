@@ -10,6 +10,7 @@
 
 //Symbolic Names
 
+//struct templates
 
 //Function Signatures
 
