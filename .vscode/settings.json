@@ -1,5 +1,6 @@
 {
     "files.associations": {
-        "DMA2.C": "cpp"
+        "DMA2.C": "cpp",
+        "proglab18_q1": "cpp"
     }
 }
