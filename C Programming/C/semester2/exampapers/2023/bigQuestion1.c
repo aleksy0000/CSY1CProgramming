@@ -24,10 +24,10 @@ int main()
 {
     //variables
     int patientAmount;
-    /*int *patientFees;
+    float *patientFees;
     FILE *fp;
     float total;
-    float avg;*/
+    float avg;
 
     //flow start
 
@@ -35,7 +35,7 @@ int main()
     printf("How many patients have you seen today?\n");
     scanf("%d", &patientAmount);
 
-    /*patientFees = calloc(patientAmount,sizeof(float));
+    patientFees = calloc(patientAmount,sizeof(float));
 
     if(patientFees == NULL)
     {
@@ -51,7 +51,7 @@ int main()
         for(int i = 0;i < patientAmount;i++)
         {
             printf("Please enter fee for patient %d\n", i + 1);
-            scanf("%f",*(patientFees + i));
+            scanf("%f",&*(patientFees + i));
         }
 
         if((fp = fopen("fees.txt","w")) == NULL)
@@ -69,7 +69,7 @@ int main()
             }
 
             //print to terminal
-            printf("Average Fees for Today = %.2f\n", total);
+            printf("Toal Fees for Today = %.2f\n", total);
             
             //write total fees to file
             fprintf(fp,"Total Fees for Today = %.2f\n",total);
@@ -84,7 +84,7 @@ int main()
             fprintf(fp,"Average Fees for Today = %.2f\n",avg);
 
         }//end fopen else
-    }//end DMA else*/
+    }//end DMA else
 
     //end program
     return 0;
