@@ -1,2 +1,2 @@
-Total Fees for Today = 700.00
-Average Fees for Today = 233.33
+Total Fees for Today = 555.11
+Average Fees for Today = 185.04
